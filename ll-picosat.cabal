@@ -2,10 +2,15 @@ name:                 ll-picosat
 description:          dirt simple picosat bindings
 version:              0.1.0.0
 license-file:         LICENSE
+license:              MIT
 author:               Daniel Waterworth
 maintainer:           Da.Waterworth@gmail.com
 build-type:           Simple
 cabal-version:        >=1.10
+
+source-repository head
+  type:               git
+  location:           git://github.com/DanielWaterworth/ll-picosat.git
 
 library
   includes:           picosat.h
